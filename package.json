@@ -1,0 +1,23 @@
+{
+  "name": "@colahq/cola-bubble",
+  "version": "0.0.1",
+  "description": "Base repository for development of a bubble for Cola Messenger",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cola, Inc.",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@colahq/cola-api": "^0.0.2",
+    "@colahq/cola-tools": "^0.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/colahq/cola-bubble.git"
+  },
+  "bugs": {
+    "url": "https://github.com/colahq/cola-bubble/issues"
+  },
+  "homepage": "https://github.com/colahq/cola-bubble#readme"
+}
