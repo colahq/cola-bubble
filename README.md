@@ -93,7 +93,7 @@ Build the Hello World bubble by running the `bubbler` in `build` mode (see [BDK 
 
 ```sh
 $ cd /path/to/cola-bubble
-$ node node_modules/@colahq/cola-tools/bubbler build --development --source ./HelloWorld --destination /path/to/bubbler/output/
+$ node node_modules/cola-tools/bubbler build --development --source ./HelloWorld --destination /path/to/bubbler/output/
 
 $ ls -R /path/to/bubbler/output
 com.yourcompany.HelloWorld
@@ -134,7 +134,7 @@ Now run the `bubbler` in `debugger` mode, where `<ip>:<port>` are the values dis
 
 ```sh
 $ cd /path/to/cola-bubble
-$ node node_modules/@colahr/cola-tools/bubbler debugger --connect <ip>:<port> --source ./HelloWorld/
+$ node node_modules/cola-tools/bubbler debugger --connect <ip>:<port> --source ./HelloWorld/
 
  ┌────────────────────────────────────────────────────────────────────────────┐ 
  │  Running packager on port 8081.                                            │ 
@@ -169,7 +169,7 @@ Build your bubble in release mode (omit the `--development` flag).
 
 ```sh
 $ cd /path/to/cola-bubble
-$ node node_modules/@colahq/cola-tools/bubbler build --source ./HelloWorld --destination /path/to/bubbler/output/
+$ node node_modules/cola-tools/bubbler build --source ./HelloWorld --destination /path/to/bubbler/output/
 ```
 Make sure there is a single version of your bubble in the `bubbler` output folder.
 
