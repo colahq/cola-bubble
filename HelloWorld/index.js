@@ -9,7 +9,7 @@ var {
   View,
 } = ReactNative;
 
-var Cola = require('cola-api');
+var Cola = require('@colahq/cola-api');
 var { Bubble } = Cola;
 
 var MyBubble = Bubble.createBubbleClass({

@@ -9,8 +9,8 @@
   "author": "Cola, Inc.",
   "license": "Apache-2.0",
   "dependencies": {
-    "@colahq/cola-api": "^0.0.2",
-    "@colahq/cola-tools": "^0.0.5"
+    "@colahq/cola-api": "^0.0.4",
+    "@colahq/cola-tools": "^0.0.8"
   },
   "repository": {
     "type": "git",
